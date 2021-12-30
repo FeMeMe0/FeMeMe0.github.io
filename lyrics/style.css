@@ -1,6 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #title {
     font-size: 65px;
-    text-align-last: center;
+    text-align: center;
     font-family: 'Playfair Display';
     font-weight: 700;
     color: rgb(26, 26, 80);
@@ -10,6 +16,7 @@
 
 #name {
     margin-top: 20px;
+    margin-bottom: 50px;
     color: rgb(67, 48, 172);
     text-decoration: overline;
     font-size: 45px;
@@ -19,31 +26,17 @@
     text-shadow: 0px 3px 4px rgb(85, 85, 85);
 }
 
-.content {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap:wrap;
-    flex-direction: row;
-    column-gap: 300px;
-    width: 800px;
-
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-
-#lyrics {
-    margin-left: 150px;
-    text-decoration: underline;
-    font-size: 40px;
-    text-align: left;
-    font-family: 'Playfair Display SC';
-    text-shadow: 0px 3px 4px rgb(85, 85, 85);
+.text{
+    margin-right: 70px;
 }
 
-#text {
-    margin-top: 25px;
-    font-size: 23px;
-    text-align: left;
-    font-family: 'Playfair Display SC';
-
+.video__video{
+    width: 400px;
+    height: 250px;
 }
