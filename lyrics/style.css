@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #A0BBFF;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+}
+
 #title {
     font-size: 65px;
     text-align: center;
