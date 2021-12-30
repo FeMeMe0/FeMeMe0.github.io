@@ -18,7 +18,7 @@ body{
     height: auto;
 }
 
-#title {
+.title {
     font-size: 65px;
     text-align: center;
     font-family: 'Playfair Display';
@@ -28,7 +28,7 @@ body{
 
 }
 
-#name {
+.name {
     margin-top: 20px;
     margin-bottom: 50px;
     color: rgb(67, 48, 172);
@@ -44,13 +44,15 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    column-gap: 70px;
 }
 
 .text{
     margin-right: 70px;
+    font-size: 25px;
 }
 
 .video__video{
-    width: 400px;
-    height: 250px;
+    width: 650px;
+    height: 350px;
 }
