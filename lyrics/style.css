@@ -29,7 +29,7 @@ body{
 }
 
 .name {
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 50px;
     color: rgb(67, 48, 172);
     text-decoration: overline;
@@ -44,7 +44,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 70px;
+    column-gap: 80px;
 }
 
 .text{
@@ -55,4 +55,8 @@ body{
 .video__video{
     width: 650px;
     height: 350px;
+
 }
+
+
+
